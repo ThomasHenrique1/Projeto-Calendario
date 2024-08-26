@@ -1,0 +1,64 @@
+body {
+    background: linear-gradient(135deg, #ff6f61, #ffeb3b, #00bcd4); /* Gradiente vibrante que mistura coral, amarelo e azul claro */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1.t {
+    background-color: #ff4081; /* Rosa vibrante para o título */
+    color: snow;
+    padding: 20px;
+    border-radius: 12px;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+figure {
+    margin: 0;
+    max-width: 90%;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
+
+section {
+    margin-top: 20px;
+    width: 70%; /* Ajuste para manter a consistência */
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco com leve transparência */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subheading {
+    font-size: 20px; /* Tamanho da fonte do h3 */
+    color: #ff4081; /* Cor rosa vibrante, combinando com o h1 */
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px; /* Tamanho da fonte do p */
+    line-height: 1.6;
+    color: #333;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com leve transparência */
+    max-width: 100%;
+}

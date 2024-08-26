@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(135deg, #f2f2f2, #e6e6e6); /* Gradiente suave de cinza claro */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.title {
+    background-color: limegreen; /* Cor ajustada para verde limão */
+    color: snow;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 24px;
+    text-align: center;
+    display: inline-block;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+figure {
+    margin: 0;
+    max-width: 90%;
+}
+
+img {
+    width: 60%;
+    height: auto;
+    border-radius: 15px;
+}
+
+section {
+    margin-top: 20px;
+    width: 60%; /* Diminuído para ajustar ao estilo da página */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para dar destaque */
+}
+.subheading {
+    font-size: 20px;
+    color: limegreen; /* Cor do texto do h3 */
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com transparência */
+}

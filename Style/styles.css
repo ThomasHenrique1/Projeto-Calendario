@@ -1,0 +1,80 @@
+body {
+    background: linear-gradient(135deg, #4682B4, #F0F8FF); /* Gradiente de azul escuro para azul claro */
+    background-repeat: no-repeat; /* Impede a repetição do fundo */
+    background-attachment: fixed; /* Faz o fundo fixo ao rolar a página */
+    background-size: cover; /* Garante que o fundo cubra toda a tela */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 200px; /* Reduzindo a largura da imagem */
+    height: 200px; /* Reduzindo a altura da imagem */
+    border-radius: 15px; /* Bordas arredondadas para a imagem */
+    margin-bottom: 20px; /* Espaçamento inferior */
+}
+
+table.calendar {
+    margin: 0 auto;
+    border-collapse: separate; /* Permite o espaçamento entre células */
+    border-spacing: 5px; /* Espaçamento entre as células */
+    width: 45%; /* Reduzindo a largura da tabela para 45% */
+    background: white; /* Fundo branco para a tabela para melhor contraste */
+    border: 3px solid black;
+    border-radius: 15px; /* Bordas arredondadas */
+}
+
+.header-table td {
+    background-color: slateblue; /* Cor de fundo do cabeçalho */
+    color: white;
+    padding: 10px; /* Ajuste do padding para melhorar o espaçamento */
+    border-radius: 15px 15px 0 0; /* Bordas arredondadas superiores */
+    text-align: center;
+}
+
+.days-header td {
+    background-color: #D3D3D3; /* Cor de fundo dos dias da semana */
+    color: black;
+    font-weight: bold;
+    padding: 10px; /* Ajuste do padding para melhorar o espaçamento */
+    border-radius: 5px; /* Bordas arredondadas para os dias da semana */
+    text-align: center;
+}
+
+.calendar td {
+    width: 14.285%; /* Divisão uniforme para 7 dias da semana */
+    height: 50px; /* Ajuste da altura das células para 50px */
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 5px; /* Bordas arredondadas para os dias */
+    font-size: 16px; /* Tamanho da fonte ajustado para 16px */
+}
+
+.gh {
+    background-color: lightgray; /* Cor de fundo para dias normais */
+}
+
+.sb {
+    background-color: lightcoral; /* Cor de fundo para fins de semana */
+}
+
+.gp {
+    background-color: mediumseagreen; /* Cor de fundo para dias com links */
+    color: white; /* Texto branco para contraste */
+}
+
+.gb {
+    background-color: mediumorchid; /* Cor de fundo para dias especiais */
+    color: white; /* Texto branco para contraste */
+}
+
+.calendar a {
+    color: inherit; /* Mantém a cor do texto dos links conforme a célula */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.calendar a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
